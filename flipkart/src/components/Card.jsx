@@ -8,26 +8,32 @@ export const Card = ({
   const [liked, setLiked] = useState(false)
   return (
     <div className='card w-72 md:w-56 lg:w-80 m-4 cursor-pointer group relative rounded-sm shadow-sm flex flex-col items-start p-4'>
+      {/* liked heart */}
       <FaHeart
         onClick={() => setLiked((prev) => !prev)}
         className={`absolute top-6 right-12 ${
           liked ? "text-red-500 opacity-100" : "text-gray-500 opacity-50"
         }`}
       />
+      {/* image */}
       <img
         src={cover}
         alt='product cover'
         className='w-full object-cover max-h-[20rem] rounded-sm'
       />
+      {/* display bottom text */}
       <div className='flex flex-col items-start absolute bottom-0 bg-white pb-6 pr-4 group-hover:pb-16 transition-[padding-bottom]'>
         {" "}
+        {/* Brand Name */}
         <h1 className='font-semibold text-gray-500'>{brand}</h1>
+        {/* Title */}
         <h2
           title={title}
           className='text-left overflow-ellipsis overflow-clip '
         >
           {title}
         </h2>
+        {/* Price, Rate, Discount, logo */}
         <div className='price flex flex-row items-center w-full gap-4'>
           <p className='font-semibold'>&#8377;{price}</p>
           <p className=' line-through'>&#8377;{rate}</p>
@@ -38,6 +44,7 @@ export const Card = ({
             className='ml-auto h-5 pr-3'
           />
         </div>
+        {/* Hover effect, and map sizes */}
         <div className='mb-auto gap-6 py-1 hidden group-hover:flex'>
           {" "}
           {size?.map((size) => (
