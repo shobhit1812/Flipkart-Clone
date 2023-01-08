@@ -38,9 +38,9 @@ export const products = [
       "https://rukminim1.flixcart.com/image/714/857/ksj9dow0/t-shirt/d/o/b/s-53214920-puma-original-imag62mf9enfd2yx.jpeg?q=50",
     brand: "Adidas",
     idealFor: "Women",
-    rate: 799,
-    price: 349,
-    discount: 0.56,
+    rate: 1499,
+    price: 1249,
+    discount: 0.16,
     size: ["M"],
   },
   {
