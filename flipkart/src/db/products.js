@@ -1,6 +1,6 @@
 export const products = [
   {
-    title: "Printed Men Round Neck Red T-Shirt Football Edition",
+    title: "Juventus T-Shirt round neck printed football edition",
     cover:
       "https://rukminim1.flixcart.com/image/832/832/xif0q/t-shirt/c/h/c/xxl-jk7-juv-newbp-amf-original-imagj4zjg2zghqdh.jpeg?q=70",
     brand: "Adidas",
@@ -11,7 +11,7 @@ export const products = [
     size: ["S", "M", "L"],
   },
   {
-    title: "Printed Men Round Neck Black,White T-Shirt",
+    title: "Polo T-Shirt, Printed Navy Blue Check rounded neck",
     cover:
       "https://rukminim1.flixcart.com/image/612/612/xif0q/t-shirt/e/v/t/l-t51-eyebogler-original-imaghyh9erxg4pxv.jpeg?q=70",
     brand: "Red Tape",
@@ -22,7 +22,7 @@ export const products = [
     size: ["M", "L"],
   },
   {
-    title: "Self Design Women Hooded Neck Black T-Shirt",
+    title: "Self Design Women Hooded Full Sleeves Black Slim Fit",
     cover:
       "https://rukminim1.flixcart.com/image/880/1056/kvr01ow0/t-shirt/o/9/v/l-14786682-puma-original-imag8ksffwap5bfa.jpeg?q=50",
     brand: "Wrogn",
@@ -38,9 +38,9 @@ export const products = [
       "https://rukminim1.flixcart.com/image/714/857/ksj9dow0/t-shirt/d/o/b/s-53214920-puma-original-imag62mf9enfd2yx.jpeg?q=50",
     brand: "Adidas",
     idealFor: "Women",
-    rate: 1499,
-    price: 1249,
-    discount: 0.16,
+    rate: 799,
+    price: 349,
+    discount: 0.56,
     size: ["M"],
   },
   {
